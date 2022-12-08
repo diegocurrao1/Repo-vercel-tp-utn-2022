@@ -13,10 +13,10 @@ export default function Main() {
       <Header />
       <main className="container">
         <Switch>
-          <Route path="/home" component={Home}></Route>
-          <Route path="/timer" component={Timer}></Route>
+          <Route path="/inicio" component={Home}></Route>
+          <Route path="/cronómetro" component={Timer}></Route>
           <Route path="/countdown" component={Countdown}></Route>
-          <Redirect to="/timer" />
+          <Redirect to="/inicio" />
         </Switch>
       </main>
       <Footer />
